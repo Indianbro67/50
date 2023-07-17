@@ -51,7 +51,7 @@ async def gen_session(
     try:
         api_id = await Anony.ask(
             identifier=(message.chat.id, user_id, None),
-            text="» ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴀᴘɪ ɪᴅ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ :",
+            text="» Please send your `API_ID`\nIf you have not api id then send Default API ID = 22894281 :",
             filters=filters.text,
             timeout=300,
         )
@@ -77,7 +77,7 @@ async def gen_session(
     try:
         api_hash = await Anony.ask(
             identifier=(message.chat.id, user_id, None),
-            text="» ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴀᴘɪ ʜᴀsʜ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ :",
+            text="» Please send your `API_HASH`\nIf you have not api id then send Default API_HASH = b59176de6ec96903b816d72c2ad4fff8 :",
             filters=filters.text,
             timeout=300,
         )
