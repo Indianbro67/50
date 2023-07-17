@@ -5,7 +5,7 @@ from config import SUPPORT_CHAT
 
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="gensession")],
+        [InlineKeyboardButton(text="𝙲𝚘𝚗𝚗𝚎𝚌𝚝 𝚃𝚘 𝙱𝚘𝚝", callback_data="pyrogram")],
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=https://t.me/adult_updates),
             InlineKeyboardButton(
