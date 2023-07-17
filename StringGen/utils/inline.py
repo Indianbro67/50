@@ -7,9 +7,9 @@ keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="gensession")],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=https://t.me/adult_updates),
             InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url="https://github.com/AnonymousX1025/StringGenBot"
+                text="𝚐𝚛𝚘𝚞𝚙", url="https://t.me/adult_girls_chatting_groupp"
             ),
         ],
     ]
